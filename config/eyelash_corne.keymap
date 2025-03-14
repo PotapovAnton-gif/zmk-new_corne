@@ -65,7 +65,7 @@
 
         forw {
             bindings = <&mkp MB5>;
-            key-positions = <36 37>;
+            key-positions = <37 38>;
         };
     };
 

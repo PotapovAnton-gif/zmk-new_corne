@@ -251,5 +251,5 @@ combos:
   k: '&mkp MB2'
 - p: [31, 32]
   k: '&mkp MB4'
-- p: [36, 37]
+- p: [37, 38]
   k: '&mkp MB5'

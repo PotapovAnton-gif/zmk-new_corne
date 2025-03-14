@@ -87,10 +87,10 @@
         lower_layer {
             display-name = "spacefn";
             bindings = <
-&trans  &kp Q     &kp W  &kp E      &kp R      &kp T                                    &mmv MOVE_UP                     &kp Y      &kp PG_UP  &kp UP     &kp O      &kp P     &kp BSPC
-&trans  &kp LALT  &kp S  &kp LGUI   &kp ENTER  &kp G                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC  &kp SQT
-&trans  &kp Z     &kp X  &kp C      &kp V      &kp SPACE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp TAB    &kp GRAVE  &kp COMMA  &kp DOT    &trans    &kp PG_DN
-                         &kp LCTRL  &kp LALT   &trans                                                                    &kp RCTRL  &kp RCMD   &mo 3
+&trans            &kp Q     &kp W  &kp E     &kp R      &kp T                                    &mmv MOVE_UP                     &kp Y      &kp PG_UP  &kp UP     &kp O      &kp P     &kp BSPC
+&trans            &kp LALT  &kp S  &kp LGUI  &kp ENTER  &kp G                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC  &kp SQT
+&kp LEFT_CONTROL  &kp Z     &kp X  &kp C     &kp V      &kp SPACE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp TAB    &kp GRAVE  &kp COMMA  &kp DOT    &trans    &kp PG_DN
+                                   &trans    &trans     &trans                                                                    &kp RCTRL  &kp RCMD   &mo 3
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -99,10 +99,10 @@
         raise_layer {
             display-name = "capsfn";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp PERCENT  &kp T                                &mmv MOVE_UP                     &kp CARET      &kp LBKT              &kp RBKT               &kp MINUS  &kp F12    &kp GRAVE
-&trans  &kp N4  &kp N5  &kp N6  &kp N0       &kp G                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp EQUAL  &kp SQT
-&trans  &kp N7  &kp N8  &kp N9  &kp V        &kp B      &trans                    &mmv MOVE_DOWN                   &kp B          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BSLH   &kp PIPE   &kp FSLH
-                        &trans  &mo 4        &kp SPACE                                                             &kp RET        &kp LSHFT             &trans
+&trans  &kp N1  &kp N2  &kp N3          &kp PERCENT  &kp T                                &mmv MOVE_UP                     &kp CARET      &kp LBKT              &kp RBKT               &kp MINUS  &kp F12    &kp GRAVE
+&trans  &kp N4  &kp N5  &kp N6          &kp N0       &kp G                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp EQUAL  &kp SQT
+&trans  &kp N7  &kp N8  &kp N9          &kp V        &kp B      &trans                    &mmv MOVE_DOWN                   &kp B          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BSLH   &kp PIPE   &kp FSLH
+                        &kp LEFT_SHIFT  &mo 4        &kp SPACE                                                             &trans         &trans                &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;

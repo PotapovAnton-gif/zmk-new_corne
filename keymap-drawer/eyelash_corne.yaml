@@ -99,11 +99,11 @@ layers:
   - mouse
   capsfn:
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - '%'
-  - T
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - {t: '[', s: '{'}
@@ -112,11 +112,11 @@ layers:
   - F12
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '0', s: )}
-  - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -127,11 +127,11 @@ layers:
   - {t: '=', s: +}
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - V
-  - B
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - B
@@ -140,8 +140,8 @@ layers:
   - {t: \, s: '|'}
   - '|'
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
   - bluetooth
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -238,8 +238,8 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
   - PAUSE BREAK
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}

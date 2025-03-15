@@ -87,10 +87,10 @@
         lower_layer {
             display-name = "spacefn";
             bindings = <
-&trans          &kp Q     &kp W  &kp E     &kp R      &kp T                                    &mmv MOVE_UP                     &kp Y      &kp PG_UP  &kp UP     &kp O      &kp P     &kp BSPC
-&trans          &kp LALT  &kp S  &kp LGUI  &kp ENTER  &kp G                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC  &kp SQT
-&kp LEFT_SHIFT  &kp Z     &kp X  &kp C     &kp V      &kp SPACE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp TAB    &kp GRAVE  &kp COMMA  &kp DOT    &trans    &kp PG_DN
-                                 &trans    &trans     &trans                                                                    &kp RCTRL  &kp RCMD   &mo 3
+&trans  &kp Q     &kp W  &kp E     &kp R      &kp T                                    &mmv MOVE_UP                     &kp Y      &kp PG_UP  &kp UP     &kp O      &kp P     &kp BSPC
+&trans  &kp LALT  &kp S  &kp LGUI  &kp ENTER  &kp G                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT  &kp BSPC  &kp SQT
+&trans  &kp Z     &kp X  &kp C     &kp V      &kp SPACE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp TAB    &kp GRAVE  &kp COMMA  &kp DOT    &trans    &kp PG_DN
+                         &trans    &trans     &trans                                                                    &kp RCTRL  &trans     &mo 3
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -130,6 +130,15 @@
             >;
 
             sensor-bindings = <&rgb_encoder>;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
+            >;
         };
     };
 };

@@ -56,7 +56,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-up$$
   - Y
   - PG UP
   - $$mdi:arrow-up-bold$$
@@ -69,9 +69,9 @@ layers:
   - LGUI
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - G
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-left$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-right$$
   - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -85,7 +85,7 @@ layers:
   - V
   - $$mdi:keyboard-space$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$mdi:pan-down$$
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
   - {t: ',', s: <}

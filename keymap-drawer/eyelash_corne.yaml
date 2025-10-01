@@ -52,51 +52,51 @@ layers:
   spacefn:
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+Q
-  - Gui+W
-  - E
-  - R
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - Gui+T
   - $$mdi:pan-up$$
   - Y
-  - PG UP
-  - $$mdi:arrow-up-bold$$
-  - O
-  - Gui+P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - (
+  - )
+  - F12
+  - ':'
   - $$mdi:apple-keyboard-option$$
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - LGUI
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Gui+G
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '0', s: )}
   - $$mdi:pan-left$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-right$$
-  - PG DN
   - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '''', s: '"'}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - AL CONTROL PANEL
   - $$mdi:volume-off$$
   - $$mdi:pan-down$$
   - $$mdi:keyboard-tab$$
   - {t: '`', s: '~'}
   - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - PG DN
+  - \
+  - '|'
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:apple-keyboard-control$$
-  - Gui+$$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-shift$$
   - mouse
   capsfn:
   - {t: '$$mdi:transfer$$', type: trans}

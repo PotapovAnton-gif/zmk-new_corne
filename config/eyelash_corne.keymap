@@ -87,7 +87,7 @@
         lower_layer {
             display-name = "spacefn";
             bindings = <
-&trans     &kp RG(Q)     &kp N1  &kp N2  &kp N3  &kp RG(T)                                             &msc SCRL_UP                     &kp Y      &kp LBKT        &kp RBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
+&trans     &kp RG(Q)     &kp N1  &kp N2  &kp N3  &kp RG(T)                                             &msc SCRL_UP                     &kp MINUS  &kp LBKT        &kp RBKT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F12
 &kp COLON  &kp LEFT_ALT  &kp N4  &kp N5  &kp N6  &kp N0                                &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &kp LEFT   &kp UP_ARROW    &kp DOWN   &kp RIGHT             &kp BSPC               &kp EQUAL
 &trans     &kp LCMD      &kp N7  &kp N8  &kp N9  &kp C_AL_CONTROL_PANEL  &kp C_MUTE                    &msc SCRL_DOWN                   &kp TAB    &kp GRAVE       &kp COMMA  &kp NON_US_BACKSLASH  &kp PIPE               &kp SLASH
                                  &trans  &trans  &trans                                                                                 &kp RCTRL  &kp LEFT_SHIFT  &mo 3

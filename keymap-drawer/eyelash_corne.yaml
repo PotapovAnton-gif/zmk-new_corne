@@ -44,9 +44,9 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: spacefn}
   - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-space$$', h: spacefn}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-tab$$', h: bluetooth}
   - $$mdi:apple-keyboard-option$$
   spacefn:

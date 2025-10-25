@@ -59,24 +59,43 @@
     combos {
         compatible = "zmk,combos";
 
-        left_click {
-            bindings = <&mkp MB1>;
-            key-positions = <16 17>;
+        cl_sq_br {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <8 9>;
         };
 
-        right_click {
-            bindings = <&mkp MB2>;
+        op_sq_br {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <3 4>;
+        };
+
+        cl_r_br {
+            bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <23 24>;
         };
 
-        back {
-            bindings = <&mkp MB4>;
+        op_r_br {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 17>;
+        };
+
+        op_c_br {
+            bindings = <&kp LEFT_BRACE>;
             key-positions = <31 32>;
         };
 
-        forw {
-            bindings = <&mkp MB5>;
+        cl_c_br {
+            bindings = <&kp RIGHT_BRACE>;
             key-positions = <37 38>;
+        };
+    };
+
+    macros {
+        equal_and_colmn: equal_and_colmn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp EQUAL>;
+            label = "EQUAL_AND_COLMN";
         };
     };
 

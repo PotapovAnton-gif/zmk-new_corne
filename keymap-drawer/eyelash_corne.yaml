@@ -295,11 +295,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [16, 17]
-  k: '&mkp MB1'
+- p: [8, 9]
+  k: {t: ']', s: '}'}
+- p: [3, 4]
+  k: {t: '[', s: '{'}
 - p: [23, 24]
-  k: '&mkp MB2'
+  k: )
+- p: [16, 17]
+  k: (
 - p: [31, 32]
-  k: '&mkp MB4'
+  k: '{'
 - p: [37, 38]
-  k: '&mkp MB5'
+  k: '}'
